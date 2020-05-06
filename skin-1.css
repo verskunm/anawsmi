@@ -1,0 +1,97 @@
+.jcarousel-skin-tango .jcarousel-container {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+	width: 930px;
+	padding: 0px 40px;
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	width:  930px;
+	_height: 310px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+	width: 200px;
+	height: 303px;
+	margin-right: 12px
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	width: 32px;
+	height: 50px;
+	cursor: pointer;
+	background: transparent url("urn:scrapbook:download:error:https://www.tsampas.gr/script/carousel/skins/tango/next-horizontal_opac.png") no-repeat 0 0;
+			-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 80px;
+left: 4px;
+	width: 32px;
+	height: 50px;
+	cursor: pointer;
+	background: transparent url("urn:scrapbook:download:error:https://www.tsampas.gr/script/carousel/skins/tango/prev-horizontal_opac.png") no-repeat 0 0;
+			-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url("urn:scrapbook:download:error:https://www.tsampas.gr/script/carousel/skins/tango/prev-horizontal_opac.png");
+}

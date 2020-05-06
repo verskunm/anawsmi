@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html data-scrapbook-source="https://analytics.skroutz.gr/track/connect?shop_code=SA-0606-4967&amp;xdm_e=https%3A%2F%2Fwww.tsampas.gr&amp;xdm_c=default2261&amp;xdm_p=1" data-scrapbook-create="20200506122421629">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="easyXDM.min.js"></script>
+    <script>
+      var onMessage = function(message, origin) {
+        if (message === 'get_analytics_session') {
+          socket.postMessage('');
+        }
+      };
+      var socket = new easyXDM.Socket({ onMessage: onMessage });
+    </script>
+  </head>
+<body>
+</body>
+</html>
